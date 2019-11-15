@@ -3,11 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>SchemeUserState</key>
+	<dict/>
+	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>WallPainter.xcscheme_^#shared#^_</key>
+		<key>CE066D3A237E9EEA00BCEB45</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

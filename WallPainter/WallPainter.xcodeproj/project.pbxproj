@@ -111,6 +111,7 @@
 				CE066D38237E9EEA00BCEB45 /* Frameworks */,
 				CE066D39237E9EEA00BCEB45 /* Resources */,
 				E26B15C7E0D1495BBCEAC1DB /* [CP] Embed Pods Frameworks */,
+				5C0B13BDE14B576CB1A04EFC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,6 +169,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		5C0B13BDE14B576CB1A04EFC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WallPainter/Pods-WallPainter-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/AppCenter/AppCenterDistributeResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AppCenterDistributeResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WallPainter/Pods-WallPainter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7F9DD1CB1B00343FFFA6AF60 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

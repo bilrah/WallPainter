@@ -15,20 +15,34 @@ PODS:
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
   - Alamofire (4.8.2)
+  - AppCenter (2.0.1):
+    - AppCenter/Analytics (= 2.0.1)
+    - AppCenter/Crashes (= 2.0.1)
+  - AppCenter/Analytics (2.0.1):
+    - AppCenter/Core
+  - AppCenter/Core (2.0.1)
+  - AppCenter/Crashes (2.0.1):
+    - AppCenter/Core
+  - AppCenter/Distribute (2.0.1):
+    - AppCenter/Core
 
 DEPENDENCIES:
   - AFNetworking (~> 3.0)
   - Alamofire (~> 4.7)
+  - AppCenter
+  - AppCenter/Distribute
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
     - Alamofire
+    - AppCenter
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  AppCenter: 6a5ff2fd007b53431259fdd74f91eb3d0dfea3d1
 
-PODFILE CHECKSUM: 1cbce379115255a9de82dd2b0a09b184d7be7c4f
+PODFILE CHECKSUM: 24d972d83a75fc0dc432224c64e5266489d821d1
 
 COCOAPODS: 1.6.1

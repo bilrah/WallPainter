@@ -6,6 +6,8 @@ target 'WallPainter' do
   use_frameworks!
   pod 'Alamofire', '~> 4.7'
   pod 'AFNetworking', '~> 3.0'
+  pod 'AppCenter'
+  pod 'AppCenter/Distribute'
   # Pods for WallPainter
 
 end

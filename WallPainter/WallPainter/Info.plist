@@ -41,5 +41,14 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>URL</key>
+	<array>
+		<dict>
+			<key>URL Schemes</key>
+			<array>
+				<string>appcenter-b4afd06e-4097-4186-88e1-47ae1d1b43a0</string>
+			</array>
+		</dict>
+	</array>
 </dict>
 </plist>
